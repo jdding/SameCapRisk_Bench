@@ -1,0 +1,10 @@
+comparison	metric	direction	estimate	ci_low	ci_high	n	query_n	bootstrap_samples	seed	resampling_unit
+Reference pipeline vs SkillRouter	recall_at_3	reference_minus_baseline	-0.014235	-0.033553	0.005285	1190	1686	5000	20260711	benchmark_unit
+Reference pipeline vs SkillRouter	ndcg_at_3	reference_minus_baseline	-0.004673	-0.023962	0.013846	1190	1686	5000	20260711	benchmark_unit
+Reference pipeline vs SkillRouter	hsr_at_3	baseline_minus_reference	0.338671	0.314653	0.363473	1190	1686	5000	20260711	benchmark_unit
+Reference pipeline vs SkillRet	recall_at_3	reference_minus_baseline	-0.039739	-0.059412	-0.019608	1190	1686	5000	20260711	benchmark_unit
+Reference pipeline vs SkillRet	ndcg_at_3	reference_minus_baseline	-0.025023	-0.044024	-0.006046	1190	1686	5000	20260711	benchmark_unit
+Reference pipeline vs SkillRet	hsr_at_3	baseline_minus_reference	0.354686	0.329612	0.380155	1190	1686	5000	20260711	benchmark_unit
+Reference pipeline vs R3-Skill	recall_at_3	reference_minus_baseline	-0.055160	-0.074879	-0.035308	1190	1686	5000	20260711	benchmark_unit
+Reference pipeline vs R3-Skill	ndcg_at_3	reference_minus_baseline	-0.033305	-0.054219	-0.012723	1190	1686	5000	20260711	benchmark_unit
+Reference pipeline vs R3-Skill	hsr_at_3	baseline_minus_reference	0.365362	0.339612	0.391119	1190	1686	5000	20260711	benchmark_unit

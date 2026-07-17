@@ -1,0 +1,8 @@
+evidence	n	query_signal	risk_signal	status	reporting_boundary
+External preference	120	101 helpful preferred	104 marked riskier	pass	companion model-screened preference check
+Verifier slice	14	14 helpful/repaired pass	14 risky/corrupted fail	pass	public verifier-backed consequence slice
+SkillsBench targeted slice	8	8 helpful pass	8 risky fail	pass	public SkillsBench targeted verifier slice
+SkillsBench sweep	31	not applicable	31/31 risky variants fail	pass	public SkillsBench risk-side verifier sweep
+Hard cue check	496	not applicable	no static cue detected	pass	query-blind static-cue gate summary
+Role-flip validation	496	496 role flips solvable	496 paired-query flips pass	pass	query-aware role-flip validation after naturalized query rewriting
+Natural-candidate companion	63	48 two-model blind pass	37 strict oracle consensus across 22 families	pass	model-screened occurrence evidence only; excluded from benchmark scores

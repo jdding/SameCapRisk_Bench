@@ -1,0 +1,243 @@
+{
+  "annotation_leak_rows": 0,
+  "boundary": "This audit checks leakage, template, duplication, and coverage properties for the current 496 controlled hard-stratum candidates. It does not imply natural-distribution coverage; final hard-unit admission also requires the blind/static-cue, query-aware oracle, method/headroom, continuity, and release-schema gates.",
+  "candidate_families": 496,
+  "diversity_status": "CONTROLLED_STRATUM_DISCLOSE",
+  "duplicate_query_hash_extra_count": 0,
+  "duplicate_skill_hash_extra_count": 0,
+  "exact_title_anchor_query_rows": 0,
+  "heading_mismatch_rows": 0,
+  "high_length_asymmetry_rows": 0,
+  "leakage_notes": [],
+  "leakage_status": "PASS",
+  "outputs": {
+    "domain": "summarized_in_this_file",
+    "pattern": "summarized_in_this_file",
+    "per_family": "reports/hard_leakage_per_family.tsv",
+    "query_mode": "summarized_in_this_file",
+    "report": "not_redistributed; summary retained in this release file",
+    "summary": "reports/gate_summaries/hard_leakage_diversity_summary.json"
+  },
+  "provenance_counts": {
+    "early_hard_candidates": 47,
+    "full_naturalized_repair": 449
+  },
+  "query_cases": 992,
+  "side_counts": {
+    "q1_A": 248,
+    "q1_B": 248,
+    "q2_A": 248,
+    "q2_B": 248
+  },
+  "static_cue_asymmetry_rows": 0,
+  "status": "PASS_CLEAN",
+  "top_domain_counts": [
+    [
+      "mobile crash triage",
+      10
+    ],
+    [
+      "robot task replay",
+      10
+    ],
+    [
+      "scientific figure reproduction",
+      10
+    ],
+    [
+      "clinical cohort extraction",
+      10
+    ],
+    [
+      "customer support routing",
+      10
+    ],
+    [
+      "code review triage",
+      10
+    ],
+    [
+      "geospatial address matching",
+      10
+    ],
+    [
+      "logistics route planning",
+      10
+    ],
+    [
+      "financial statement audit",
+      10
+    ],
+    [
+      "education rubric scoring",
+      10
+    ],
+    [
+      "security access review",
+      10
+    ],
+    [
+      "email campaign QA",
+      10
+    ],
+    [
+      "energy usage analysis",
+      10
+    ],
+    [
+      "legal discovery review",
+      10
+    ],
+    [
+      "manufacturing defect analysis",
+      10
+    ]
+  ],
+  "top_pattern_counts": [
+    [
+      "review note || row export",
+      17
+    ],
+    [
+      "configuration sheet review || runtime log review",
+      17
+    ],
+    [
+      "observation trace procedure || source specification procedure",
+      17
+    ],
+    [
+      "case record || policy rubric",
+      17
+    ],
+    [
+      "incident note review || work plan review",
+      17
+    ],
+    [
+      "calibration note procedure || measurement table procedure",
+      17
+    ],
+    [
+      "request form || response transcript",
+      17
+    ],
+    [
+      "change memo review || inventory list review",
+      17
+    ],
+    [
+      "guideline note procedure || judgment table procedure",
+      17
+    ],
+    [
+      "review note review || row export review",
+      17
+    ],
+    [
+      "configuration sheet procedure || runtime log procedure",
+      17
+    ],
+    [
+      "observation trace || source specification",
+      17
+    ],
+    [
+      "case record review || policy rubric review",
+      17
+    ],
+    [
+      "incident note procedure || work plan procedure",
+      17
+    ],
+    [
+      "calibration note || measurement table",
+      17
+    ]
+  ],
+  "top_query_mode_counts": [
+    [
+      "row export",
+      17
+    ],
+    [
+      "review note",
+      17
+    ],
+    [
+      "configuration sheet review",
+      17
+    ],
+    [
+      "runtime log review",
+      17
+    ],
+    [
+      "source specification procedure",
+      17
+    ],
+    [
+      "observation trace procedure",
+      17
+    ],
+    [
+      "policy rubric",
+      17
+    ],
+    [
+      "case record",
+      17
+    ],
+    [
+      "work plan review",
+      17
+    ],
+    [
+      "incident note review",
+      17
+    ],
+    [
+      "measurement table procedure",
+      17
+    ],
+    [
+      "calibration note procedure",
+      17
+    ],
+    [
+      "request form",
+      17
+    ],
+    [
+      "response transcript",
+      17
+    ],
+    [
+      "inventory list review",
+      17
+    ],
+    [
+      "change memo review",
+      17
+    ],
+    [
+      "judgment table procedure",
+      17
+    ],
+    [
+      "guideline note procedure",
+      17
+    ],
+    [
+      "row export review",
+      17
+    ],
+    [
+      "review note review",
+      17
+    ]
+  ],
+  "unique_domains": 64,
+  "unique_pattern_signatures": 74,
+  "unique_query_target_modes": 148
+}

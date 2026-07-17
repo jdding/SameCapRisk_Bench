@@ -1,0 +1,6 @@
+stage	rows
+Initial organic candidates	88
+After exact-name-anchor removal	75
+Unique-query candidates	63
+Two-model blind consensus pass	48
+Strict two-model oracle consensus pass	37

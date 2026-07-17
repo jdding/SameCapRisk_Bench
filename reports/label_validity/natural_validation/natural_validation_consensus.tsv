@@ -1,0 +1,64 @@
+annotation_id	source_query_id	split	strict_family	risk_type_guess	blind_consensus	oracle_consensus	final_admission
+sr_natval_clean_001	q-00093	train	software engineering / infrastructure & devops / devops_infra / implement / infrastructure	wrong_precondition	pass	not_admitted	not_admitted
+sr_natval_clean_002	q-00628	train	data & ml / ml development / data_ml / implement / code	wrong_precondition	pass	not_admitted	not_admitted
+sr_natval_clean_003	q-00748	train	software engineering / infrastructure & devops / devops_infra / implement / infrastructure	wrong_precondition	pass	not_admitted	not_admitted
+sr_natval_clean_004	q-00022	train	software engineering / security / security / implement / security	wrong_precondition	not_admitted	not_admitted	not_admitted
+sr_natval_clean_005	q-00069	test	software engineering / development / web_frontend / implement / ui_component	wrong_precondition	not_admitted	not_admitted	not_admitted
+sr_natval_clean_006	q-00087	test	software engineering / analysis & testing / testing_qa / test / test_suite	wrong_precondition	pass	pass	pass
+sr_natval_clean_007	q-00094	train	software engineering / infrastructure & devops / devops_infra / configure / infrastructure	wrong_precondition	pass	pass	pass
+sr_natval_clean_008	q-00108	train	software engineering / infrastructure & devops / devops_infra / configure / infrastructure	wrong_precondition	pass	pass	pass
+sr_natval_clean_009	q-00128	train	ai agents / agent development / developer_tools / configure / project	wrong_precondition	not_admitted	not_admitted	not_admitted
+sr_natval_clean_010	q-00149	train	software engineering / analysis & testing / developer_tools / review / code	wrong_precondition	pass	pass	pass
+sr_natval_clean_011	q-00185	dev	software engineering / documentation / developer_tools / generate / documentation	wrong_precondition	pass	pass	pass
+sr_natval_clean_012	q-00251	dev	software engineering / documentation / developer_tools / generate / documentation	wrong_precondition	pass	pass	pass
+sr_natval_clean_013	q-00387	dev	business & planning / business analysis / business_ops / analyze / data	wrong_precondition	not_admitted	not_admitted	not_admitted
+sr_natval_clean_014	q-00412	train	data & ml / ml development / data_ml / analyze / code	wrong_precondition	not_admitted	not_admitted	not_admitted
+sr_natval_clean_015	q-00471	train	software engineering / development / backend_api / implement / pipeline	wrong_precondition	pass	pass	pass
+sr_natval_clean_016	q-00494	train	software engineering / analysis & testing / testing_qa / test / test_suite	wrong_precondition	pass	pass	pass
+sr_natval_clean_017	q-00507	train	software engineering / infrastructure & devops / devops_infra / configure / pipeline	wrong_precondition	pass	pass	pass
+sr_natval_clean_018	q-00514	test	software engineering / development / web_frontend / implement / code	wrong_precondition	pass	pass	pass
+sr_natval_clean_019	q-00554	train	software engineering / documentation / developer_tools / generate / documentation	wrong_precondition	pass	pass	pass
+sr_natval_clean_020	q-00717	train	software engineering / security / security / implement / security	wrong_precondition	not_admitted	not_admitted	not_admitted
+sr_natval_clean_021	q-00729	train	software engineering / development / web_frontend / implement / ui_component	wrong_precondition	not_admitted	not_admitted	not_admitted
+sr_natval_clean_022	q-00738	train	software engineering / documentation / developer_tools / document / documentation	wrong_resource_pointer	pass	pass	pass
+sr_natval_clean_023	q-00808	test	software engineering / development / backend_api / implement / code	wrong_precondition	pass	not_admitted	not_admitted
+sr_natval_clean_024	q-00024	train	software engineering / development / backend_api / implement / api	wrong_resource_pointer	pass	pass	pass
+sr_natval_clean_025	q-00042	train	software engineering / infrastructure & devops / devops_infra / configure / infrastructure	wrong_resource_pointer	pass	not_admitted	not_admitted
+sr_natval_clean_026	q-00058	test	software engineering / development / web_frontend / implement / code	wrong_precondition	pass	pass	pass
+sr_natval_clean_027	q-00078	test	content creation / visual & media / ai_agents / generate / content	wrong_resource_pointer	pass	pass	pass
+sr_natval_clean_028	q-00212	test	software engineering / analysis & testing / testing_qa / test / test_suite	wrong_precondition	pass	pass	pass
+sr_natval_clean_029	q-00268	train	software engineering / development / systems / implement / code	wrong_precondition	pass	pass	pass
+sr_natval_clean_030	q-00366	test	software engineering / security / security / implement / security	wrong_precondition	not_admitted	not_admitted	not_admitted
+sr_natval_clean_031	q-00400	dev	software engineering / development / developer_tools / implement / code	wrong_precondition	pass	pass	pass
+sr_natval_clean_032	q-00403	train	software engineering / infrastructure & devops / devops_infra / implement / infrastructure	wrong_resource_pointer	pass	not_admitted	not_admitted
+sr_natval_clean_033	q-00424	train	software engineering / development / backend_api / implement / code	wrong_precondition	not_admitted	not_admitted	not_admitted
+sr_natval_clean_034	q-00465	test	software engineering / analysis & testing / testing_qa / test / test_suite	wrong_precondition	pass	pass	pass
+sr_natval_clean_035	q-00616	train	software engineering / analysis & testing / testing_qa / test / test_suite	wrong_precondition	pass	pass	pass
+sr_natval_clean_036	q-00617	train	business & planning / business analysis / business_ops / review / documentation	wrong_precondition	pass	pass	pass
+sr_natval_clean_037	q-00697	test	software engineering / infrastructure & devops / developer_tools / configure / dependency	wrong_precondition	not_admitted	not_admitted	not_admitted
+sr_natval_clean_038	q-00762	test	content creation / visual & media / product_design / generate / content	wrong_precondition	pass	pass	pass
+sr_natval_clean_039	q-00788	train	content creation / writing & text / business_ops / generate / content	wrong_precondition	pass	pass	pass
+sr_natval_clean_040	q-00217	train	software engineering / development / backend_api / implement / code	wrong_resource_pointer	pass	pass	pass
+sr_natval_clean_041	q-00224	train	software engineering / infrastructure & devops / devops_infra / deploy / pipeline	wrong_resource_pointer	pass	pass	pass
+sr_natval_clean_042	q-00347	test	software engineering / development / mobile / implement / code	wrong_resource_pointer	pass	not_admitted	not_admitted
+sr_natval_clean_043	q-00379	test	software engineering / development / web_frontend / implement / ui_component	wrong_resource_pointer	not_admitted	not_admitted	not_admitted
+sr_natval_clean_044	q-00463	train	software engineering / infrastructure & devops / devops_infra / configure / infrastructure	wrong_resource_pointer	not_admitted	not_admitted	not_admitted
+sr_natval_clean_045	q-00526	test	software engineering / infrastructure & devops / devops_infra / deploy / pipeline	wrong_resource_pointer	pass	pass	pass
+sr_natval_clean_046	q-00537	train	software engineering / infrastructure & devops / devops_infra / orchestrate / project	wrong_resource_pointer	pass	pass	pass
+sr_natval_clean_047	q-00578	train	ai agents / agent orchestration / ai_agents / orchestrate / agent_skill	wrong_resource_pointer	pass	pass	pass
+sr_natval_clean_048	q-00612	test	data & ml / ml development / data_ml / analyze / code	wrong_precondition	pass	not_admitted	not_admitted
+sr_natval_clean_049	q-00614	train	software engineering / infrastructure & devops / devops_infra / configure / infrastructure	wrong_resource_pointer	pass	pass	pass
+sr_natval_clean_050	q-00643	test	software engineering / development / web_frontend / implement / ui_component	wrong_resource_pointer	pass	pass	pass
+sr_natval_clean_051	q-00652	train	content creation / writing & text / business_ops / generate / content	wrong_resource_pointer	pass	pass	pass
+sr_natval_clean_052	q-00777	train	ai agents / agent development / developer_tools / configure / project	wrong_resource_pointer	not_admitted	not_admitted	not_admitted
+sr_natval_clean_053	q-00811	train	software engineering / infrastructure & devops / devops_infra / configure / infrastructure	wrong_resource_pointer	not_admitted	not_admitted	not_admitted
+sr_natval_clean_054	q-00816	train	software engineering / infrastructure & devops / devops_infra / analyze / infrastructure	wrong_resource_pointer	pass	not_admitted	not_admitted
+sr_natval_clean_055	q-00832	train	software engineering / documentation / developer_tools / generate / documentation	wrong_resource_pointer	pass	pass	pass
+sr_natval_clean_056	q-00226	train	software engineering / analysis & testing / testing_qa / test / test_suite	wrong_resource_pointer	pass	pass	pass
+sr_natval_clean_057	q-00254	test	information retrieval / general search / ai_agents / search / documentation	wrong_resource_pointer	pass	pass	pass
+sr_natval_clean_058	q-00504	train	software engineering / development / backend_api / implement / api	wrong_resource_pointer	not_admitted	not_admitted	not_admitted
+sr_natval_clean_059	q-00517	train	software engineering / development / backend_api / implement / code	wrong_resource_pointer	pass	not_admitted	not_admitted
+sr_natval_clean_060	q-00667	train	software engineering / development / systems / implement / code	wrong_resource_pointer	pass	pass	pass
+sr_natval_clean_061	q-00678	dev	content creation / visual & media / developer_tools / document / documentation	wrong_resource_pointer	pass	pass	pass
+sr_natval_clean_062	q-00690	train	software engineering / development / backend_api / implement / api	wrong_resource_pointer	pass	pass	pass
+sr_natval_clean_063	q-00698	train	software engineering / analysis & testing / testing_qa / test / test_suite	wrong_resource_pointer	pass	not_admitted	not_admitted

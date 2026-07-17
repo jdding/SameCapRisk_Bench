@@ -1,0 +1,25 @@
+{
+  "boundary": "Public BGE-M3 dense top-20 candidates reranked without family labels or benchmark-label training.",
+  "config": {
+    "batch_size": 16,
+    "max_length": 512,
+    "top_n": 20
+  },
+  "counts": {
+    "queries": 1686,
+    "scored_pairs": 33720
+  },
+  "environment": {
+    "device": "NVIDIA GeForce RTX 4090 D",
+    "python": "3.12.3",
+    "torch": "2.7.0+cu128"
+  },
+  "method_id": "bge_m3_bge_reranker",
+  "model": "BAAI/bge-reranker-v2-m3",
+  "outputs": {
+    "per_query": "bge_reranker_two_stage_per_query.tsv",
+    "summary": "bge_reranker_two_stage_summary.tsv",
+    "top20": "bge_reranker_two_stage_top20.tsv"
+  },
+  "status": "complete"
+}

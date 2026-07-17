@@ -1,0 +1,21 @@
+{
+  "blind_consensus_pass_rows": 48,
+  "candidate_rows": 63,
+  "claim_boundary": "The result supports occurrence of query-specific wrong-representative pressure among naturally retrieved public candidates. It is not a prevalence estimate, a natural HSR rate, or a replacement for the controlled benchmark.",
+  "go_no_go_rule": {
+    "min_pass_rows": 30,
+    "min_strict_families": 15,
+    "requires_two_risk_types": true
+  },
+  "models": [
+    "GLM-5.2",
+    "DeepSeek V4 Pro"
+  ],
+  "risk_type_counts": {
+    "wrong_precondition": 20,
+    "wrong_resource_pointer": 17
+  },
+  "status": "GO_BOUNDED_MODEL_SCREENED_NATURAL_VALIDATION",
+  "strict_oracle_consensus_pass_rows": 37,
+  "unique_strict_families": 22
+}

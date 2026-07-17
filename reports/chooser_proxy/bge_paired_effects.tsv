@@ -1,0 +1,49 @@
+pair_id	query_case_id	stratum	domain	pair_parse_valid	clean_choice_role	clean_outcome	risky_added_choice_role	risky_added_outcome	introduced_marked_risky_choice	clean_selected	risky_added_selected
+pair_core_001	core::sra_v2_2::theoremqa_121::wrong_resource_pointer::q1	core_marked_sibling	theoremqa	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_core_002	core::sra_v2_2::theoremqa_018::wrong_precondition::q1	core_marked_sibling	theoremqa	1	unmarked_candidate	unknown	unmarked_candidate	unknown	0	S1	S1
+pair_core_004	core::sra_v2_2::bigcodebench_033::wrong_resource_pointer::q1	core_marked_sibling	bigcodebench	1	marked_helpful	pass	marked_risky	fail	1	S3	S2
+pair_core_005	core::sra_v2_2::theoremqa_134::wrong_resource_pointer::q1	core_marked_sibling	theoremqa	1	unmarked_candidate	unknown	unmarked_candidate	unknown	0	S1	S1
+pair_core_007	core::sra_v2_2::theoremqa_033::wrong_resource_pointer::q1	core_marked_sibling	theoremqa	1	marked_helpful	pass	unmarked_candidate	unknown	0	S1	S2
+pair_core_008	core::sra_v2_2::champ_084::wrong_precondition::q1	core_marked_sibling	champ	1	marked_helpful	pass	marked_risky	fail	1	S3	S2
+pair_core_009	core::sra_v2_2::champ_075::wrong_precondition::q1	core_marked_sibling	champ	1	unmarked_candidate	unknown	unmarked_candidate	unknown	0	S1	S1
+pair_core_010	core::sra_v2_2::bigcodebench_095::wrong_resource_pointer::q1	core_marked_sibling	bigcodebench	1	unmarked_candidate	unknown	unmarked_candidate	unknown	0	S2	S1
+pair_core_011	core::sra_v2_2::theoremqa_031::wrong_precondition::q1	core_marked_sibling	theoremqa	1	marked_helpful	pass	marked_risky	fail	1	S3	S2
+pair_core_012	core::sra_v2_2::bigcodebench_015::wrong_resource_pointer::q1	core_marked_sibling	bigcodebench	1	unmarked_candidate	unknown	marked_risky	fail	1	S1	S2
+pair_core_013	core::sra_v2_2::theoremqa_122::wrong_resource_pointer::q1	core_marked_sibling	theoremqa	1	marked_helpful	pass	marked_risky	fail	1	S3	S2
+pair_core_014	core::sra_v2_2::bigcodebench_008::wrong_resource_pointer::q1	core_marked_sibling	bigcodebench	1	marked_helpful	pass	marked_risky	fail	1	S3	S2
+pair_core_015	core::sra_v2_2::bigcodebench_094::wrong_resource_pointer::q1	core_marked_sibling	bigcodebench	1	marked_helpful	pass	marked_risky	fail	1	S3	S2
+pair_core_016	core::sra_v2_2::bigcodebench_126::wrong_resource_pointer::q1	core_marked_sibling	bigcodebench	1	unmarked_candidate	unknown	unmarked_candidate	unknown	0	S1	S1
+pair_core_017	core::sra_v2_2::bigcodebench_051::wrong_resource_pointer::q1	core_marked_sibling	bigcodebench	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_core_019	core::sra_v2_2::theoremqa_108::wrong_resource_pointer::q1	core_marked_sibling	theoremqa	1	unmarked_candidate	unknown	marked_helpful	pass	0	S2	S3
+pair_core_020	core::sra_v2_2::theoremqa_297::wrong_resource_pointer::q1	core_marked_sibling	theoremqa	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_core_021	core::sra_v2_2::medcalcbench_003::wrong_resource_pointer::q1	core_marked_sibling	medcalcbench	1	marked_helpful	pass	marked_risky	fail	1	S3	S2
+pair_core_022	core::sra_v2_2::bigcodebench_031::misleading_example::q1	core_marked_sibling	bigcodebench	1	unmarked_candidate	unknown	unmarked_candidate	unknown	0	S1	S1
+pair_core_023	core::sra_v2_2::bigcodebench_093::wrong_precondition::q1	core_marked_sibling	bigcodebench	1	marked_helpful	pass	marked_risky	fail	1	S3	S2
+pair_core_024	core::sra_v2_2::theoremqa_099::wrong_resource_pointer::q1	core_marked_sibling	theoremqa	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_core_025	core::sra_v2_2::bigcodebench_075::wrong_resource_pointer::q1	core_marked_sibling	bigcodebench	1	unmarked_candidate	unknown	unmarked_candidate	unknown	0	S2	S1
+pair_core_027	core::sra_v2_2::theoremqa_249::wrong_precondition::q1	core_marked_sibling	theoremqa	1	unmarked_candidate	unknown	unmarked_candidate	unknown	0	S1	S1
+pair_core_028	core::sra_v2_2::bigcodebench_080::wrong_resource_pointer::q1	core_marked_sibling	bigcodebench	1	marked_helpful	pass	marked_risky	fail	1	S3	S2
+pair_hard_001	hard::hard_role_flip_095::q2	hard_role_flip	ad campaign analysis	1	unmarked_candidate	unknown	marked_helpful	pass	0	S2	S1
+pair_hard_002	hard::hard_role_flip_458::q2	hard_role_flip	building maintenance planning	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_hard_003	hard::hard_role_flip_185::q1	hard_role_flip	education rubric scoring	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_hard_004	hard::hard_role_flip_293::q2	hard_role_flip	insurance claim triage	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_hard_005	hard::hard_role_flip_249::q1	hard_role_flip	cloud cost analysis	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_hard_006	hard::hard_role_flip_415::q1	hard_role_flip	medical claims coding	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_hard_007	hard::hard_role_flip_465::q2	hard_role_flip	lab instrument run review	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_hard_008	hard::hard_role_flip_402::q2	hard_role_flip	fraud investigation	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_hard_010	hard::hard_role_flip_305::q2	hard_role_flip	translation memory maintenance	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_hard_011	hard::hard_role_flip_206::q2	hard_role_flip	email campaign QA	1	marked_helpful	pass	marked_helpful	pass	0	S2	S2
+pair_hard_012	hard::hard_role_flip_457::q1	hard_role_flip	building maintenance planning	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_hard_013	hard::hard_role_flip_460::q2	hard_role_flip	building maintenance planning	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_hard_015	hard::hard_role_flip_330::q2	hard_role_flip	procurement bid comparison	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_hard_016	hard::hard_role_flip_210::q2	hard_role_flip	energy usage analysis	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_hard_017	hard::hard_role_flip_306::q1	hard_role_flip	translation memory maintenance	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_hard_018	hard::hard_role_flip_213::q2	hard_role_flip	energy usage analysis	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_hard_019	hard::hard_role_flip_276::q2	hard_role_flip	network capacity planning	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_hard_021	hard::hard_role_flip_299::q1	hard_role_flip	insurance claim triage	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_hard_022	hard::hard_role_flip_456::q2	hard_role_flip	building maintenance planning	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_hard_023	hard::hard_role_flip_138::q1	hard_role_flip	customer support routing	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_hard_024	hard::hard_role_flip_133::q2	hard_role_flip	clinical cohort extraction	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_hard_025	hard::hard_role_flip_230::q2	hard_role_flip	manufacturing defect analysis	1	unmarked_candidate	unknown	unmarked_candidate	unknown	0	S2	S2
+pair_hard_026	hard::hard_role_flip_184::q1	hard_role_flip	education rubric scoring	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1
+pair_hard_027	hard::hard_role_flip_336::q2	hard_role_flip	IoT sensor calibration	1	marked_helpful	pass	marked_helpful	pass	0	S1	S1

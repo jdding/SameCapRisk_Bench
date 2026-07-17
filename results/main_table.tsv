@@ -1,0 +1,6 @@
+method_id	paper_label	status	overall_n	core_n	hard_n	recall_at_3	ndcg_at_3	recall_at_5	ndcg_at_5	hsr_at_3	hsr_at_5	source
+hybrid_lexical_rrf	Hybrid lexical RRF	complete	1686	694	992	0.744958	0.668132	0.812574	0.696057	0.320878	0.453144	repaired_query:hybrid_lexical_rrf
+skillrouter_official	SkillRouter	complete	1686	694	992	0.847568	0.771207	0.874852	0.782490	0.345789	0.394425	repaired_query:skillrouter_official
+skillret_embedding_0_6b	SkillRet	complete	1686	694	992	0.873072	0.791557	0.910439	0.806948	0.361803	0.435350	repaired_query:skillret_embedding_0_6b
+r3_skill_embedding_reranker	R3-Skill	complete	1686	694	992	0.888493	0.799839	0.924081	0.814750	0.372479	0.434757	repaired_query:r3_skill_embedding_reranker
+controlled_reference	Reference pipeline	complete	1686	694	992	0.833333	0.766534	0.865362	0.779860	0.007117	0.019573	repaired_query:controlled_reference

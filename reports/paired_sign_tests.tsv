@@ -1,0 +1,10 @@
+comparison	metric	reported_direction	n	query_n	baseline_success	reference_success	mean_delta	discordant_n	reference_better_n	baseline_better_n	two_sided_sign_p	comparison_unit
+Reference pipeline vs SkillRouter	recall_at_3	Reference minus baseline	1190	1686	1429	1405	-0.014235	279	129	150	0.231103	benchmark_unit
+Reference pipeline vs SkillRouter	hsr_at_3	Baseline minus reference	1190	1686	583	12	0.338671	580	573	7	2.16139e-159	benchmark_unit
+Reference pipeline vs SkillRouter	cleanhit_at_3	Reference minus baseline	1190	1686	889	1405	0.306050	708	611	97	5.26263e-92	benchmark_unit
+Reference pipeline vs SkillRet	recall_at_3	Reference minus baseline	1190	1686	1472	1405	-0.039739	279	107	172	0.000119309	benchmark_unit
+Reference pipeline vs SkillRet	hsr_at_3	Baseline minus reference	1190	1686	610	12	0.354686	614	603	11	3.20739e-162	benchmark_unit
+Reference pipeline vs SkillRet	cleanhit_at_3	Reference minus baseline	1190	1686	881	1405	0.310795	718	619	99	8.80553e-93	benchmark_unit
+Reference pipeline vs R3-Skill	recall_at_3	Reference minus baseline	1190	1686	1498	1405	-0.055160	284	97	187	1.01283e-07	benchmark_unit
+Reference pipeline vs R3-Skill	hsr_at_3	Baseline minus reference	1190	1686	628	12	0.365362	627	618	9	1.41961e-169	benchmark_unit
+Reference pipeline vs R3-Skill	cleanhit_at_3	Reference minus baseline	1190	1686	899	1405	0.300119	699	593	106	5.96365e-83	benchmark_unit

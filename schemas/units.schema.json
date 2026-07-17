@@ -1,0 +1,23 @@
+{
+  "format": "tab-separated UTF-8 with header",
+  "required_columns": [
+    "unit_id",
+    "source_layer",
+    "source_unit_id",
+    "stratum",
+    "difficulty_rung",
+    "domain",
+    "release_split",
+    "query_case_count",
+    "candidate_pool_id",
+    "helpful_skill_id",
+    "risky_sibling_id",
+    "role_flip",
+    "oracle_gate_status",
+    "blind_gate_status",
+    "leakage_flag",
+    "query_sha256",
+    "helpful_text_sha256",
+    "risk_text_sha256"
+  ]
+}

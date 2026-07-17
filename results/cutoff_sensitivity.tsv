@@ -1,0 +1,6 @@
+method_id	paper_label	overall_n	recall_at_3	hsr_at_3	ndcg_at_3	recall_at_10	hsr_at_10	ndcg_at_10	recall_at_20	hsr_at_20	ndcg_at_20	source
+hybrid_lexical_rrf	Hybrid lexical RRF	1686	0.744958	0.320878	0.668132	0.887307	0.613286	0.720950	0.945433	0.916370	0.735852	q11_rebuilt_results/compact_predictions.tsv
+skillrouter_official	SkillRouter	1686	0.847568	0.345789	0.771207	0.890866	0.509490	0.787799	0.908066	0.640569	0.792112	q11_rebuilt_results/compact_predictions.tsv
+skillret_embedding_0_6b	SkillRet	1686	0.873072	0.361803	0.791557	0.950178	0.600830	0.819993	0.968565	0.857058	0.824744	q11_rebuilt_results/compact_predictions.tsv
+r3_skill_embedding_reranker	R3-Skill	1686	0.888493	0.372479	0.799839	0.948399	0.571174	0.822784	0.964413	0.677936	0.826863	q11_rebuilt_results/compact_predictions.tsv
+controlled_reference	Reference pipeline	1686	0.833333	0.007117	0.766534	0.899763	0.041518	0.791049	0.916963	0.041518	0.795428	q11_rebuilt_results/compact_predictions.tsv
