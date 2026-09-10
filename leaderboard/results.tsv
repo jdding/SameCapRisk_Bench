@@ -1,0 +1,29 @@
+setting	rank_within_setting	result_status	display_name	method_id	recall_at_3	recall_ci95_low	recall_ci95_high	hsr_at_3	hsr_ci95_low	hsr_ci95_high	cleanhit_at_3	cleanhit_ci95_low	cleanhit_ci95_high
+diagnostic_not_ranked		paper_frozen	controlled_reference	controlled_reference	0.730524642	0.603080626	0.807880473	0.135930048	0.093508505	0.215411739	0.730524642	0.603080626	0.807880473
+diagnostic_not_ranked		paper_frozen	bge_m3_bge_reranker__released_family_selector	bge_m3_bge_reranker__released_family_selector	0.722575517	0.577474723	0.806954741	0.142289348	0.094987695	0.231983631	0.722575517	0.577474723	0.806954741
+diagnostic_not_ranked		paper_frozen	reference_score__text_cluster_resolver	reference_score__text_cluster_resolver	0.726550079	0.590855829	0.809714187	0.132750397	0.091705187	0.209919372	0.720985692	0.586413385	0.804347826
+diagnostic_not_ranked		paper_frozen	qwen2_5_7b_listwise_bge_m3_top20__released_family_selector	qwen2_5_7b_listwise_bge_m3_top20__released_family_selector	0.720190779	0.582534344	0.795444597	0.139109698	0.094826927	0.225493219	0.720190779	0.582534344	0.795444597
+diagnostic_not_ranked		paper_frozen	qwen2_5_7b_listwise_bge_m3_top20__text_cluster_selector	qwen2_5_7b_listwise_bge_m3_top20__text_cluster_selector	0.719395866	0.58193529	0.797419495	0.138314785	0.095436984	0.218870679	0.715421304	0.5787181	0.793328029
+diagnostic_not_ranked		paper_frozen	bge_m3_bge_reranker__text_cluster_selector	bge_m3_bge_reranker__text_cluster_selector	0.724960254	0.57593201	0.804921556	0.149443561	0.102914618	0.238169969	0.713036566	0.563838667	0.796259391
+diagnostic_not_ranked		paper_frozen	bge__released_family_selector	bge__released_family_selector	0.666931638	0.526794084	0.761037876	0.146263911	0.101439482	0.229868166	0.666931638	0.526794084	0.761037876
+diagnostic_not_ranked		paper_frozen	bge__text_cluster_selector	bge__text_cluster_selector	0.66772655	0.527663897	0.760885944	0.147058824	0.10364449	0.226323845	0.663751987	0.521913164	0.757912353
+diagnostic_not_ranked		paper_frozen	reference_score__public_title_resolver	reference_score__public_title_resolver	0.727344992	0.598303604	0.80598346	0.20190779	0.146395704	0.279123856	0.655007949	0.550674892	0.731386008
+diagnostic_not_ranked		paper_frozen	bge_m3_bge_reranker	bge_m3_bge_reranker	0.840222576	0.757855826	0.894851205	0.3290938	0.240035847	0.477827577	0.527027027	0.324447329	0.646595522
+diagnostic_not_ranked		paper_frozen	reference_no_selector	reference_no_selector	0.825914149	0.740787507	0.885882198	0.356120827	0.263021309	0.502485826	0.488871224	0.310172105	0.605353909
+diagnostic_not_ranked		paper_frozen	qwen2_5_7b_listwise_bge_m3_top20	qwen2_5_7b_listwise_bge_m3_top20	0.824324324	0.742813474	0.87570468	0.375198728	0.305143974	0.492369824	0.480127186	0.317231503	0.568726744
+diagnostic_not_ranked		paper_frozen	bge	bge	0.781399046	0.678126066	0.858794884	0.367249603	0.291636671	0.491747212	0.430842607	0.274043423	0.524327057
+public_text_cluster	1	paper_frozen	SkillSight + text cluster	skillsight_qwen3_embedding_0_6b__text_cluster_selector	0.840222576	0.750963432	0.889272909	0.134340223	0.095049768	0.19888009	0.807631161	0.720928657	0.858875173
+public_text_cluster	2	paper_frozen	SkillRet + text cluster	skillret_embedding_0_6b__text_cluster_selector	0.810015898	0.694161317	0.869126603	0.131955485	0.088049577	0.215735865	0.806041335	0.69040993	0.865783391
+public_text_cluster	3	paper_frozen	R3-Skill + text cluster	r3_skill_embedding_reranker__text_cluster_selector	0.79491256	0.675059279	0.854984193	0.159777424	0.113951306	0.24519688	0.775834658	0.661545677	0.836040455
+public_text_cluster	4	paper_frozen	SkillRouter + text cluster	skillrouter_official__text_cluster_selector	0.774244833	0.64811758	0.843955416	0.163751987	0.113175568	0.255112298	0.762321145	0.63723863	0.831780935
+public_text_cluster	5	paper_frozen	RRF + text cluster	rrf__text_cluster_selector	0.740858506	0.623055283	0.814146204	0.135135135	0.09607897	0.208946872	0.726550079	0.613469834	0.795050596
+public_text_only	1	paper_frozen	SkillRet	skillret_embedding_0_6b	0.927662957	0.884087402	0.951651261	0.388712242	0.289523765	0.571641023	0.554848967	0.352711138	0.663756846
+public_text_only	2	paper_frozen	SkillSight	skillsight_qwen3_embedding_0_6b	0.935612083	0.896138599	0.956839721	0.402225755	0.307260865	0.586105869	0.546899841	0.33828909	0.655082107
+public_text_only	3	paper_frozen	SkillRouter	skillrouter_official	0.910174881	0.861786706	0.940767014	0.385532591	0.292348998	0.556615906	0.538950715	0.338434681	0.649704396
+public_text_only	4	paper_frozen	R3-Skill	r3_skill_embedding_reranker	0.925278219	0.891953179	0.951314155	0.395866455	0.289658069	0.576992754	0.538155803	0.344148797	0.660322252
+public_text_only	5	paper_frozen	RRF	rrf	0.722575517	0.640112274	0.802254216	0.387122417	0.31476729	0.516960878	0.349761526	0.228062277	0.432674744
+released_family_control	1	paper_frozen	SkillSight + released family	skillsight_qwen3_embedding_0_6b__released_family_selector	0.850556439	0.760048319	0.89917185	0.109697933	0.072419624	0.180774831	0.850556439	0.760048319	0.89917185
+released_family_control	2	paper_frozen	SkillRet + released family	skillret_embedding_0_6b__released_family_selector	0.818759936	0.70833095	0.876543376	0.132750397	0.086839073	0.222385558	0.818759936	0.70833095	0.876543376
+released_family_control	3	paper_frozen	R3-Skill + released family	r3_skill_embedding_reranker__released_family_selector	0.794117647	0.68292527	0.853979653	0.145468998	0.097644267	0.239969695	0.794117647	0.68292527	0.853979653
+released_family_control	4	paper_frozen	SkillRouter + released family	skillrouter_official__released_family_selector	0.780604134	0.650813543	0.846680687	0.154213037	0.105378675	0.250990885	0.780604134	0.650813543	0.846680687
+released_family_control	5	paper_frozen	RRF + released family	rrf__released_family_selector	0.690779014	0.589219721	0.759790716	0.12718601	0.086904725	0.200633556	0.690779014	0.589219721	0.759790716

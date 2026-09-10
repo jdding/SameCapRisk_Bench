@@ -1,3 +1,0 @@
-slice	n	helpful_condition	risk_condition	risk_failures	status	reporting_boundary
-targeted	8	8 helpful variants pass	8 risky variants fail	8/8	pass	SkillsBench targeted verifier slice
-sweep	31	helpful variants admitted by host/oracle evidence	risk variants fail verifier	31/31	pass	SkillsBench risk-side verifier sweep

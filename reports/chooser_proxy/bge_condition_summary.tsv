@@ -1,7 +1,0 @@
-condition	stratum	n	parsed	parse_failure	pass	fail	unknown	pass_rate	fail_rate	unknown_rate	marked_helpful_choice	marked_risky_choice	unmarked_choice	unparsed_choice	sensitivity_marked_risky_choice
-natural_exposed_topk	core_marked_sibling	24	23	1	13	10	1	0.541667	0.416667	0.041667	13	10	0	1	11
-natural_exposed_topk	hard_role_flip	24	24	0	24	0	0	1.000000	0.000000	0.000000	24	0	0	0	0
-observed_clean_topk	core_marked_sibling	24	24	0	14	0	10	0.583333	0.000000	0.416667	14	0	10	0	0
-observed_clean_topk	hard_role_flip	24	24	0	22	0	2	0.916667	0.000000	0.083333	22	0	2	0	0
-risky_added_topk	core_marked_sibling	24	24	0	5	10	9	0.208333	0.416667	0.375000	5	10	9	0	10
-risky_added_topk	hard_role_flip	24	24	0	23	0	1	0.958333	0.000000	0.041667	23	0	1	0	0

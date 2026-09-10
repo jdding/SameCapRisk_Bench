@@ -1,20 +1,15 @@
 # Artifact Quickstart
 
-Run these commands from the artifact root:
+This GitHub project surface can be checked without benchmark data:
 
 ```bash
-bash scripts/run_release_checks.sh
-python3 scripts/reproduce_results.py
-python3 scripts/reproduce_family_source.py
+python3 -m pip install -r requirements.txt
+python3 -m pytest -q
+python3 scripts/check_repo_surface.py
 ```
 
-Both commands are CPU-only and normally finish within one minute. The release
-check validates schemas, fixed-rank metrics, and benchmark-unit clustered
-uncertainty. It writes `reports/validation_report.json` and
-`reports/reproduction_report.json`, each with `"status": "ok"`.
+Expected result: all interface tests pass and the surface checker reports no broken local links or full benchmark files in Git.
 
-The artifact reproduces benchmark accounting and paper-facing tables from the
-released fixed candidate pools and rank outputs. It does not rerun neural model
-inference or regenerate private construction transcripts. See `README.md` for
-the paper-to-artifact map and `SOURCE_AND_LICENSES.md` for redistribution and
-model-provenance boundaries.
+To evaluate a method, extract the separately versioned Benchmark 1.0 release asset beside this repository, then follow `docs/METHOD_INTEGRATION.md`. A complete method submission is accepted by the automated gate only after full ranks for all 1,327 queries pass coverage, pool, rank, score, hash, and metric-recomputation checks. Human review then verifies the declared information setting, training overlap, and code reproducibility before leaderboard admission.
+
+The full benchmark archive, neural checkpoints, and GPU inference environments are intentionally omitted from this small Git surface. Their current release status is recorded in `ACCESS_AND_RELEASE_STATUS.md`.

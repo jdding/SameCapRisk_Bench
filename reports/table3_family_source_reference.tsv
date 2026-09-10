@@ -1,5 +1,0 @@
-resolver	construction	core_recall_at_3	core_hsr_at_3	hard_recall_at_3	hard_hsr_at_3	merged_recall_at_3	merged_hsr_at_3	merged_cleanhit_at_3	source_note
-No selector	ordinary individual ranking, no representative selection	0.753602	0.240634	0.887097	0.073589	0.832147	0.142349	0.695136	main release stratum rows
-Controlled relation	released core sibling relation plus controlled hard role-flip relation	0.752161	0.001441	0.890121	0.011089	0.833333	0.007117	0.833333	main release stratum rows
-Metadata/title	public title/metadata resolver; hard uses title signatures	0.719020	0.001441	0.887097	0.073589	0.817912	0.043891	0.779953	core public-resolver gate plus hard recomputation
-Text cluster	text-neighborhood resolver; hard clusters active top-80 at threshold 0.65	0.707493	0.000000	0.881048	0.020161	0.809609	0.011862	0.802491	core public-resolver gate plus hard recomputation

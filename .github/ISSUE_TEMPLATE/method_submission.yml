@@ -1,0 +1,53 @@
+name: Method result submission
+description: Submit a reproducible ranking result for maintainer validation
+title: "[Method] "
+labels: ["method-submission"]
+body:
+  - type: input
+    id: method
+    attributes:
+      label: Method and immutable code revision
+    validations:
+      required: true
+  - type: dropdown
+    id: setting
+    attributes:
+      label: Information setting
+      options:
+        - public_text_only
+        - public_text_cluster
+        - released_family
+        - benchmark_trained
+        - other_declared
+    validations:
+      required: true
+  - type: textarea
+    id: disclosure
+    attributes:
+      label: Training, development use, preprocessing, and compute
+    validations:
+      required: true
+  - type: input
+    id: rank_hash
+    attributes:
+      label: Rank TSV SHA-256
+    validations:
+      required: true
+  - type: input
+    id: bundle
+    attributes:
+      label: Submission bundle URL
+      description: Include method_card.json, top20.tsv, metrics.json, and validation_receipt.json.
+    validations:
+      required: true
+  - type: checkboxes
+    id: attest
+    attributes:
+      label: Attestations
+      options:
+        - label: Inference respected the declared information boundary.
+          required: true
+        - label: The supplied code and configuration can regenerate the submitted ranks.
+          required: true
+        - label: The bundle contains no credentials or private data.
+          required: true

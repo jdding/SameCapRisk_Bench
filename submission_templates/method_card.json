@@ -1,0 +1,17 @@
+{
+  "schema": "samecaprisk.method-card.v1",
+  "method_id": "replace_me",
+  "method_name": "Replace Me",
+  "information_setting": "public_text_only",
+  "code_url": "anonymous-or-public-code-url",
+  "code_commit": "immutable-commit-sha",
+  "checkpoint": "model-id-and-immutable-revision-or-none",
+  "training_data": "datasets, overlap checks, and contamination disclosure",
+  "development_use": "data and labels used for tuning",
+  "preprocessing": "full text, truncation, chunking, prompts, and tie handling",
+  "compute": "hardware, runtime, software versions, and seeds",
+  "rank_file": "top20.tsv",
+  "rank_sha256": "replace-with-sha256",
+  "metrics_file": "metrics.json"
+}
+
