@@ -4,6 +4,10 @@ SameCapRisk-Bench evaluates a specific failure in agent skill retrieval: a retri
 
 Benchmark 1.0 contains **940 units and 1,327 query cases**, organized into five mechanisms and twelve conflict types. The main leaderboard uses **1,258 held-out queries** and reports Recall, marked-sibling exposure (HSR), and CleanHit together. Single-query public-pool and paired role-exchange results are always reported separately as well as in the fixed pooled protocol.
 
+![SameCapRisk-Bench construction and evaluation pipeline](assets/samecaprisk_benchmark_pipeline.png)
+
+*SameCapRisk-Bench construction and evaluation pipeline. Source-bound and paired role-exchange units pass evidence-linked admission before frozen retrieval evaluation and joint Recall, HSR, and CleanHit reporting.*
+
 ## Start Here
 
 | Goal | Entry point |
