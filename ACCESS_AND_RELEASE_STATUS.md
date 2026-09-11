@@ -5,7 +5,8 @@
 | Benchmark research snapshot | Frozen | 940 units, 1,327 queries, splits and hashes are fixed for the paper |
 | Evaluation code | Locally validated | Existing ranks can be checked and scored on CPU |
 | Method-submission interface | Locally validated | A complete RRF submission was recomputed and accepted by the validator |
-| Anonymous review URL | Pending | No Open4Science/GitHub anonymous URL is claimed yet |
+| Public project surface | Active | This repository is the public project homepage; the frozen benchmark bundle remains a gated release asset |
+| Author-created code license | Apache-2.0 (granted 2026-09-11) | Covers author-created code, schemas, documentation, and leaderboard tables in this repository; third-party and upstream text is not relicensed (see docs/SOURCE_AND_LICENSES.md) |
 | Full-text public release | Pending | Final third-party notices and CHAMP task-material distribution must be resolved |
 | Community intake | Prepared locally | Issue/PR templates become active when the repository is opened |
 
