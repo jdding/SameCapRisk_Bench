@@ -80,3 +80,18 @@ See [method submission](docs/METHOD_SUBMISSION.md), [data contribution](docs/DAT
 The GitHub repository is the project homepage. It carries documentation, schemas, evaluation code, result tables, issue templates, and contribution history. Versioned data and fixed ranks are distributed as release assets so that large immutable files do not accumulate in Git history. A separate website is unnecessary for the first release; GitHub Pages can later render the same leaderboard files if the number of submissions warrants it.
 
 This repository is a **pre-release project surface**. The benchmark research snapshot is frozen, while anonymous access and unrestricted public redistribution remain separate gates. The full benchmark bundle is not placed on `main` until those gates pass; see [ACCESS_AND_RELEASE_STATUS.md](ACCESS_AND_RELEASE_STATUS.md).
+
+## License
+
+Author-created code, schemas, documentation, issue templates, and leaderboard
+tables in this repository are released under the [Apache License 2.0](LICENSE)
+(copyright 2026 The SameCapRisk-Bench Authors).
+
+This grant does not relicense third-party or upstream material: benchmark unit
+text, upstream dataset components, and source repositories keep their own
+terms, including the MIT and Apache-2.0 background declarations and the CHAMP
+research/noncommercial boundary recorded in
+[docs/SOURCE_AND_LICENSES.md](docs/SOURCE_AND_LICENSES.md). The frozen
+benchmark bundle and fixed ranks are distributed as versioned release assets
+and remain subject to the access gates in
+[ACCESS_AND_RELEASE_STATUS.md](ACCESS_AND_RELEASE_STATUS.md).
